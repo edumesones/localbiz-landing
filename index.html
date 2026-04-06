@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalBiz AI - El empleado digital que nunca duerme</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            slate: { 850: '#1e293b', 900: '#0f172a', 950: '#020617' },
+            cyan: { 400: '#22d3ee', 500: '#06b6d4', 600: '#0891b2' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text { background: linear-gradient(135deg, #22d3ee 0%, #0891b2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-slate-950 text-white antialiased">
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center px-6 py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm mb-8">
+        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+        Ahora disponible en España
+      </div>
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        El empleado digital que<br><span class="gradient-text">nunca duerme</span>
+      </h1>
+      <p class="text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
+        Atiende llamadas, responde reseñas y envía SMS automáticamente. 
+        Mientras tú creces tu negocio, nosotros cuidamos de tus clientes.
+      </p>
+      <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <input type="email" placeholder="tu@email.com" class="flex-1 px-5 py-4 bg-slate-900 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500">
+        <button type="submit" class="px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-xl transition-colors">
+          Empieza gratis
+        </button>
+      </form>
+      <p class="text-slate-500 text-sm mt-4">Configuración en 24h. Sin compromiso.</p>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section class="py-20 px-6 bg-slate-900/50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Los negocios locales pierden clientes cada día</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6">
+          <div class="text-5xl font-bold text-cyan-400 mb-2">30%</div>
+          <p class="text-slate-400">de llamadas perdidas por no poder atender</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-5xl font-bold text-cyan-400 mb-2">67%</div>
+          <p class="text-slate-400">de clientes esperan respuesta inmediata</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-5xl font-bold text-cyan-400 mb-2">0</div>
+          <p class="text-slate-400">tiempo para marketing cuando atiendes solo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Todo lo que necesitas, automatizado</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-8 bg-slate-900 border border-slate-800 rounded-2xl hover:border-cyan-500/50 transition-colors">
+          <div class="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Asistente de Voz 24/7</h3>
+          <p class="text-slate-400">Atiende llamadas, toma reservas y responde FAQs con voz natural. Tus clientes no saben que hablan con IA.</p>
+        </div>
+        <div class="p-8 bg-slate-900 border border-slate-800 rounded-2xl hover:border-cyan-500/50 transition-colors">
+          <div class="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Responde Reseñas</h3>
+          <p class="text-slate-400">IA responde automáticamente reseñas de Google y Yelp. Mantiene tu reputación sin que tengas que hacer nada.</p>
+        </div>
+        <div class="p-8 bg-slate-900 border border-slate-800 rounded-2xl hover:border-cyan-500/50 transition-colors">
+          <div class="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">SMS Marketing</h3>
+          <p class="text-slate-400">Envía campañas personalizadas a tus clientes. Recordatorios de citas, promociones, y seguimiento automático.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="py-20 px-6 bg-slate-900/50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Funciona en 4 pasos</h2>
+      <div class="space-y-8">
+        <div class="flex gap-6 items-start">
+          <div class="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center font-bold text-lg shrink-0">1</div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Conectas tu teléfono</h3>
+            <p class="text-slate-400">En 2 minutos configuras el número de tu negocio con nuestro sistema.</p>
+          </div>
+        </div>
+        <div class="flex gap-6 items-start">
+          <div class="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center font-bold text-lg shrink-0">2</div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Configuramos tu asistente</h3>
+            <p class="text-slate-400">En 24h creamos un asistente AI personalizado para tu tipo de negocio.</p>
+          </div>
+        </div>
+        <div class="flex gap-6 items-start">
+          <div class="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center font-bold text-lg shrink-0">3</div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Atiendes llamadas automáticamente</h3>
+            <p class="text-slate-400">El asistente responde 24/7, toma reservas y gestiona consultas.</p>
+          </div>
+        </div>
+        <div class="flex gap-6 items-start">
+          <div class="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center font-bold text-lg shrink-0">4</div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Recibes reportes y notificaciones</h3>
+            <p class="text-slate-400">Dashboard completo con métricas, grabaciones y resúmenes de cada interacción.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Precios simples</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-8 bg-slate-900 border border-slate-800 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">Starter</h3>
+          <div class="text-4xl font-bold mb-4">49€<span class="text-lg text-slate-400">/mes</span></div>
+          <ul class="space-y-3 text-slate-400 mb-8">
+            <li class="flex items-center gap-2">✓ 100 llamadas/mes</li>
+            <li class="flex items-center gap-2">✓ 500 SMS/mes</li>
+            <li class="flex items-center gap-2">✓ 1 ubicación</li>
+            <li class="flex items-center gap-2">✓ Dashboard básico</li>
+          </ul>
+          <button class="w-full py-3 border border-slate-700 rounded-xl hover:border-cyan-500 transition-colors">Empezar</button>
+        </div>
+        <div class="p-8 bg-slate-900 border-2 border-cyan-500 rounded-2xl relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-cyan-500 text-sm font-medium rounded-full">Popular</div>
+          <h3 class="text-xl font-semibold mb-2">Growth</h3>
+          <div class="text-4xl font-bold mb-4">99€<span class="text-lg text-slate-400">/mes</span></div>
+          <ul class="space-y-3 text-slate-400 mb-8">
+            <li class="flex items-center gap-2">✓ 500 llamadas/mes</li>
+            <li class="flex items-center gap-2">✓ 2,000 SMS/mes</li>
+            <li class="flex items-center gap-2">✓ 3 ubicaciones</li>
+            <li class="flex items-center gap-2">✓ Voice agent avanzado</li>
+            <li class="flex items-center gap-2">✓ Reseñas automáticas</li>
+          </ul>
+          <button class="w-full py-3 bg-cyan-500 hover:bg-cyan-600 rounded-xl font-medium transition-colors">Empezar</button>
+        </div>
+        <div class="p-8 bg-slate-900 border border-slate-800 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">Pro</h3>
+          <div class="text-4xl font-bold mb-4">199€<span class="text-lg text-slate-400">/mes</span></div>
+          <ul class="space-y-3 text-slate-400 mb-8">
+            <li class="flex items-center gap-2">✓ Llamadas ilimitadas</li>
+            <li class="flex items-center gap-2">✓ 5,000 SMS/mes</li>
+            <li class="flex items-center gap-2">✓ 10 ubicaciones</li>
+            <li class="flex items-center gap-2">✓ Todo lo de Growth</li>
+            <li class="flex items-center gap-2">✓ Soporte prioritario</li>
+          </ul>
+          <button class="w-full py-3 border border-slate-700 rounded-xl hover:border-cyan-500 transition-colors">Contactar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 px-6 bg-slate-900/50">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Deja de perder clientes</h2>
+      <p class="text-slate-400 mb-8">Únete a los negocios que ya usan LocalBiz AI para crecer sin preocupaciones.</p>
+      <form class="flex flex-col sm:flex-row gap-3">
+        <input type="email" placeholder="tu@email.com" class="flex-1 px-5 py-4 bg-slate-900 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500">
+        <button type="submit" class="px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-xl transition-colors">
+          Empieza gratis
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-2">
+        <span class="text-xl font-bold text-cyan-400">LocalBiz AI</span>
+      </div>
+      <p class="text-slate-500 text-sm">© 2025 LocalBiz AI. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
